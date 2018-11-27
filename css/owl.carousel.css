@@ -3,6 +3,7 @@
  * Copyright 2013-2018 David Deutsch
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
+
 .owl-carousel,
 .owl-carousel .owl-item {
     -webkit-tap-highlight-color: transparent;
@@ -48,10 +49,9 @@
 }
 
 .owl-carousel .owl-item {
-    min-height: 1px;
     float: left;
     -webkit-backface-visibility: hidden;
-    -webkit-touch-callout: none
+    -webkit-touch-callout: none;
 }
 
 .owl-carousel .owl-item img {
@@ -147,7 +147,6 @@
     0% {
         opacity: 1
     }
-
     100% {
         opacity: 0
     }
@@ -211,10 +210,4 @@
     z-index: 1;
     height: 100%;
     width: 100%
-}
-
-@media(max-width: 991px) {
-    .owl-theme .owl-nav.disabled+.owl-dots {
-        margin-top: 30px;
-    }
 }
